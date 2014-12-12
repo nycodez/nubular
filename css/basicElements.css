@@ -1,0 +1,24 @@
+.basicListTable {
+ width: 99%;
+ font: 12px Arial;
+ border-collapse: collapse;
+}
+.basicListTable th {
+ border-bottom: solid 1px #cccccc;
+ text-align: left;
+ height: 3em;
+}
+.basicListTable td {
+ border-bottom: solid 1px #eeeeee;
+ height: 3em;
+}
+.basicDropdown {
+ float: left;
+ font-size: 1em;
+ margin-bottom: 20px;
+}
+.specialDropdown {
+ float: right;
+ font-size: 1em;
+ margin-bottom: 20px;
+}

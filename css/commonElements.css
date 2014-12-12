@@ -1,0 +1,98 @@
+#top_menu {
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 35px;
+ border-bottom: solid 1px #444444;
+ background-color: #ffffff;
+}
+#top_menu div {
+ margin: 5px;
+}
+#top_menu_menu,#top_menu_logo,#top_menu_search {
+ float: left;
+}
+#top_menu_logo img {
+ margin-top: -3px;
+ padding-right: 100px;
+}
+#top_menu_search input {
+ border-radius: 5px;
+ border: solid 1px #bbbbbb;
+ padding: 4px;
+}
+#top_menu_profile,#top_menu_help,#top_menu_settings,#top_menu_organization {
+ float: right;
+}
+#top_menu_search input {
+}
+
+#side_menu {
+ position: fixed;
+ top: 0px;
+ left: 0px;
+ height: 100%;
+ width: 135px;
+ padding: 10px;
+ border-right: solid 1px #444444;
+ background-color: #eeeeee;
+}
+
+#content {
+ position: relative;
+ top: 35px;
+ left: 160px;
+ padding: 10px;
+ width: 700px;
+}
+
+h1 {
+ font: bold 2em Arial;
+ padding: 0px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+h2 {
+ font: 1.7em Arial;
+ padding: 0px;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+h3 {
+ font: 1.3em Arial;
+ padding: 0px;
+ margin-top: 2px;
+ margin-bottom: 2px;
+}
+
+nav a {
+ text-decoration: none;
+ color: #111111;
+ display: block;
+}
+nav a:hover { 
+ color: #336699; 
+}
+nav ul {
+ list-style: none;
+ padding: 0px;
+ text-transform: capitalize;
+}
+nav ul li { 
+ font: 1.2em Arial;
+ margin: 0px; 
+ padding: 10px; 
+ display: block;
+}
+/* Dropdown Menu */
+nav ul li ul { 
+ position: absolute;
+ width: 100%; 
+ padding: 0px;
+margin: 0px;
+ display: none; 
+}
+nav ul li:hover ul { 
+// display: block; 
+}
