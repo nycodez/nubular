@@ -13,6 +13,12 @@ switch($page[0])
 	case 'contacts';
 	require_once 'contacts.php';
 	break;
+	case 'records';
+	require_once 'records.php';
+	break;
+	case 'calendar';
+	require_once 'calendar.php';
+	break;
 	case 'items';
 	require_once 'items.php';
 	break;

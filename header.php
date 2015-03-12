@@ -6,7 +6,8 @@
  <ul>
   <li><a href="/">dashboard</a></li>
   <li><a href="/contacts">contacts</a></li>
-  <li><a href="/items">items</a></li>
+  <li><a href="/records">records</a></li>
+  <li><a href="/calendar">events</a></li>
   <li><a href="/income">income</a>
    <ul>
     <li><a href="/income/invoices">invoices</a></li>

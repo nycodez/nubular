@@ -93,6 +93,14 @@ nav ul li ul {
 margin: 0px;
  display: none; 
 }
-nav ul li:hover ul { 
-// display: block; 
+
+.basicInfoTable {
+ clear: both;
+ margin: 10px;
+ padding: 10px;
+}
+.basicInfoTable label {
+ width: 200px;
+ text-align: right;
+ padding-right: 30px;
 }

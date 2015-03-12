@@ -1,0 +1,74 @@
+body {
+ background: #ffffff url("/img/siteClouds.jpg") no-repeat right top;
+}
+#siteMenu {
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ height: 50px;
+ font: 1.3em Arial;
+ color: #ffffff;
+}
+#siteMenu ul {
+ list-style: none;
+ padding: 0px;
+ margin: 10px;
+}
+#siteMenu > ul > li {
+ float: left;
+ padding-right: 30px;
+}
+#siteMenu a, #siteMenu a:hover {
+ color: #ffffff;
+ text-decoration: none;
+}
+
+#siteLogin {
+ position: absolute;
+margin: 5px;
+ right: 0px;
+ top: 0px;
+ height: 50px;
+}
+#siteLogin > form > input {
+ background: transparent;
+ border: solid 1px #aaaaaa;
+ border-radius: 3px;
+ padding: 3px;
+ margin: 3px;
+}
+
+#siteBuffer {
+ position: absolute;
+ right: 0px;
+ top: 0px;
+ height: 300px;
+width: 100%;
+padding: 0px;
+margin: 0px;
+z-index: -9;
+}
+
+.siteBlurb {
+ position: relative;
+ font: 1.4em Georgia;
+ top: 300px;
+border-radius: 10px;
+ color: white;
+padding: 20px;
+margin: 20px;
+background-color:rgba(0, 0, 0, 0.7);
+}
+#siteBlurbOne {
+}
+#siteBlurbTwo {
+}
+
+#siteFooter {
+ position: absolute;
+ text-align: center;
+ color: white;
+ width: 99%;
+ bottom: 0px;
+ font: .8em Arial;
+}

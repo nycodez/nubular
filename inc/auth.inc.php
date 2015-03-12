@@ -26,11 +26,7 @@ class Auth
 {
 	public function Login()
 	{
-		echo '<form method=post name="loginForm">
-			<input type=text name=login class=login placeholder="login" />
-			<input type=password name=pass class=login placeholder="password" />
-			<input type=submit name=func value=Login class=inputButton />
-			</form>';
+		require_once 'site/index.php';
 	}
 	public function Authenticate($login, $secret)
 	{
